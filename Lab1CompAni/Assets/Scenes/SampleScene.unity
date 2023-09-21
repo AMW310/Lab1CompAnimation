@@ -140,11 +140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 40858769728537148, guid: d9c87df41475ca343b77b12b71160898, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.16
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 40858769728537148, guid: d9c87df41475ca343b77b12b71160898, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.1307945
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 40858769728537148, guid: d9c87df41475ca343b77b12b71160898, type: 3}
       propertyPath: m_LocalRotation.w
@@ -156,11 +156,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 40858769728537148, guid: d9c87df41475ca343b77b12b71160898, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 40858769728537148, guid: d9c87df41475ca343b77b12b71160898, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 40858769728537148, guid: d9c87df41475ca343b77b12b71160898, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -205,6 +205,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &157384876
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157384874}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 7e7d957884b46b44cbd89b905bd86400, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 7774862266411601421, guid: 7e7d957884b46b44cbd89b905bd86400, type: 2}
+    value: {fileID: 157384875}
+  m_ExposedReferences:
+    m_References:
+    - c78b5979a401f2242b92810fc1f60964: {fileID: 157384874}
+    - 268c048291469fb44ad31ebcb2bc136f: {fileID: 157384874}
 --- !u!1001 &189244713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -432,11 +455,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2.935, y: 1, z: -0.027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
